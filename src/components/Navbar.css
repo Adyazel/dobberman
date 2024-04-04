@@ -1,0 +1,38 @@
+:root{
+    --black-do:#121212;
+    --brown-do:#4d2e17;
+    --white-do:#ffffff;
+    --lbrown-do:#cdc69c;
+  }
+
+.Navbar{
+    background: var(--black-do);
+    color: var(--white-do);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.Navbar > h1{
+    font-size: 35px;
+}
+.Navbar > ul{
+    display: table;
+    text-decoration: none;
+    list-style-type: none;
+}
+.Navbar > ul > li{
+    display: table-cell;
+    padding: 10px 25px;
+}
+.Navbar > ul > li:hover{
+    border-bottom: 1px solid var(--lbrown-do);
+    -webkit-transition: all .8s ease;
+-moz-transition: all .8s ease;
+-ms-transition: all .8s ease;
+-o-transition: all .8s ease;
+transition: all .8s ease;
+}
+.Navbar a{
+    color: var(--white-do);
+    text-decoration: none;
+}

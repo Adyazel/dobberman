@@ -1,0 +1,60 @@
+:root{
+    --black-do:#121212;
+    --brown-do:#4d2e17;
+    --white-do:#ffffff;
+    --lbrown-do:#cdc69c;
+  }
+.worksPage{
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    background: var(--black-do);
+}
+
+.worksPage > section{
+    width: 100%;
+    height: auto;
+
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.worksPage > section > a{
+    text-decoration: none;
+    color: var(--brown-do);
+    border-radius: 4px;
+    background: var(--black-do);
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+}
+
+.worksPage > section > a > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    mask-image: linear-gradient(var(--black-do) 70%, transparent);
+}
+.worksPage > section > a > div{
+    width: 50%;
+    height: auto;
+    color: #ffffff;
+    position: absolute;
+    z-index: 20;
+    padding: 10px;
+    bottom: 0;
+}
+.worksPage > section > a > div > h2{
+    font-size: 20px;
+}
+
+.worksPage > section > a > div > cite{
+    font-size: 12px;
+}
+
+
+
+

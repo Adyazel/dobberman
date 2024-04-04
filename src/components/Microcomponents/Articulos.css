@@ -1,0 +1,29 @@
+.articles{
+    width: 100%;
+    height: auto;
+    background: var(--black-do);
+}
+
+.Articulo_class{
+    margin-bottom: 20px;
+    color: white;
+    background: var(--black-do);
+}
+
+.Articulo_class > p{
+    text-align: justify;
+}
+.Articulo_class > h1{
+    font-size: 25px;
+}
+.Articulo_class > cite{
+    font-size: 12px;
+}
+.Articulo_class > a{
+    color: var(--lbrown-do);
+}
+.PageArt{
+    width: 70%;
+    margin: auto;
+    padding-top: 20px;
+}

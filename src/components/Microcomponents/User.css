@@ -1,0 +1,109 @@
+.userPerfil{
+    color: white !important;
+    width: 100%;
+    height: auto;
+
+    background: var(--black-do);
+    padding-top: 20px;
+}
+.Perfil{
+    width: 40%;
+    height: auto;
+    min-height: 400px;
+    margin: auto;
+    margin-top: 60px;
+    background: var(--lbrown-do);
+    padding: 15px;
+    border-radius: 10px;
+
+}
+.Perfil > h1{
+    font-size: 30px;
+}
+.perfiltop{
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+    margin-bottom: 10px;
+}
+
+
+.user_datos{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0;
+}
+
+.Perfil h6{
+    font-size: 20px;
+}
+
+.img_perfil{
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+.img_perfil > img{
+    mask-image: linear-gradient(var(--lbrown-do) 50%, transparent);
+}
+
+.perfilbottom{
+    width: 100%;
+    height: auto;
+}
+.perfilbottom > div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.perfilbottom > div > p{
+
+    padding: 2px 5px;
+    margin: 2px;
+    background: transparent;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.3);
+}
+.perfilbottom > div > p:hover{
+    background: rgba(255, 255, 255, 0.6);
+}
+.perfilbottom > button{
+    outline: none;
+    width: 30%;
+    margin: auto;
+    display: block;
+    background: transparent;
+    border: none;
+    background:rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-top: 20px;
+}
+.perfilbottom > button:hover{
+    background: rgba(255, 255, 255, 0.6);
+}
+
+/* form */
+
+.perfiltop input[type="text"],.dataNivel{
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--brown-do);
+}
+.perfilbottom textarea{
+    width: 100%;
+    height: auto;
+    min-height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    resize: none;
+}

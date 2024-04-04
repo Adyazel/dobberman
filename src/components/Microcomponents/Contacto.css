@@ -1,0 +1,20 @@
+.compContacto{
+    color: white;
+    width: 70%;
+    margin: auto;
+    padding-top: 20px;
+
+}
+.compContacto > div > h1{
+    font-size: 40px;
+
+}
+.compContacto > div > p{
+    font-size: 20px;
+}
+.compContacto ul{
+  margin-top: 20px;  
+}
+.compContacto ul > li{
+    list-style-type: none;
+}

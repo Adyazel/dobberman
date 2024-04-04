@@ -1,0 +1,41 @@
+.aboutus{
+    width: 100%;
+    height: auto;
+    background: var(--black-do);
+}
+.AboutUs_container{
+    width: 70%;
+    height: auto;
+    min-height: 200px;
+    margin: auto;
+    padding-top: 30px;
+    color: white;
+    background: var(--black-do);
+}
+.block_about{
+    width: 100%;
+    height: auto;
+    min-height: 50px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.block_about > h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.block_about > p{
+    font-size: 20px;
+    text-align: justify;
+}
+.block_about > ul{
+    padding: 10px 10px 10px 20px;
+}
+
+
+.sep_block{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
